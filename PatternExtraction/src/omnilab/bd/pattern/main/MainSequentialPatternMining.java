@@ -49,8 +49,8 @@ public class MainSequentialPatternMining {
 	private static int top_pattern_limit = 20;
 	private static double pattern_graph_minsim = 0.15;
 	
-	private static String DEFAULT_USER_FOLDER = "/Users/chenxm/Jamin/Datasets/dartmouth/Location/";
-	private static String DEFAULT_PATTERN_OUT_FOLDER = "/Users/chenxm/Desktop/patterns/";
+	private static String DEFAULT_USER_FOLDER = "/Users/chenxm/Jamin/workspace/TPCA-jane/PatternExtraction/input/location/";
+	private static String DEFAULT_PATTERN_OUT_FOLDER = "/Users/chenxm/Jamin/workspace/TPCA-jane/PatternExtraction/patterns/";
 	
 	private static Logger logger = Logger.getLogger("MyLogger");
 	//************* SETTINGS END ***************
@@ -148,7 +148,7 @@ public class MainSequentialPatternMining {
 				
 			}
 			
-			miningPatternChangeByClustering(um);
+//			miningPatternChangeByClustering(um);
 //			miningPatternChange(um);
 			
 			// clear user data
