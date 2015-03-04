@@ -39,7 +39,7 @@ import omnilab.bd.pattern.utils.UserManager;
 public class MainSequentialPatternMining {
 	//************ SETTINGS START **************
 	private static boolean debug = true;
-	private static boolean verbose = false;
+	private static boolean verbose = true;
 	
 	private static int time_span_max = 20; // days
 	private static int time_span_min = 5; // days
@@ -141,11 +141,9 @@ public class MainSequentialPatternMining {
 				
 				// MINING PATTERNS SETS USING THE MODEL OF PATTERN GRAPH
 				// create a graph for all patterns
-				PatternGraph graph = new PatternGraph(patternSetList, pattern_graph_minsim);
-				graph.classifyingPatterns();
-				if (debug ) { System.out.println(graph); }
-				
-				
+//				PatternGraph graph = new PatternGraph(patternSetList, pattern_graph_minsim);
+//				graph.classifyingPatterns();
+//				if (debug ) { System.out.println(graph); }
 			}
 			
 //			miningPatternChangeByClustering(um);
